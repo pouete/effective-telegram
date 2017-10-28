@@ -2,20 +2,22 @@
  * Copyright (C) 2017 by Alex Fosdick - University of Colorado
  *
  * Redistribution, modification or use of this software in source or binary
- * forms is permitted as long as the files maintain this copyright. Users are 
+ * forms is permitted as long as the files maintain this copyright. Users are
  * permitted to modify this and use it to learn about the field of embedded
  * software. Alex Fosdick and the University of Colorado are not liable for any
- * misuse of this material. 
+ * misuse of this material.
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats,c
+ * @brief Implementation of stats.h
  *
- * <Add Extended Description Here>
+ * This file implementes stats.h and give some usage exemples.
+ * sort_array have been implemented using an in place quicksort algorithm.
+ * It's memory footprint is thus reduced to the mimmum.
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Juilen Godin
+ * @date 28/10/2017
  *
  */
 
@@ -40,4 +42,17 @@ void main() {
 
 }
 
-/* Add other Implementation File Code Here */
+unsigned char print_statistics(unsigned char *array, unsigned int array_size){}
+
+unsigned char print_array(unsigned char *array, unsigned int array_size){}
+
+unsigned char find_median(unsigned char *array, unsigned int array_size){}
+
+unsigned char find_mean(unsigned char *array, unsigned int array_size){}
+
+unsigned char find_maximum(unsigned char *array, unsigned int array_size){}
+
+unsigned char find_minimum(unsigned char *array, unsigned int array_size){}
+
+unsigned char sort_array(unsigned char *array, unsigned int array_size){}
+
